@@ -1,0 +1,58 @@
+/*  light-blue color style    */
+.preloader .loader i,
+p.copyright-text:hover,
+.btn-1:hover,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .social-links a i,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+body.dark .header .nav ul li a.active,
+.header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+.header .nav ul li a:hover {
+    color: #4dd5ef;
+}
+
+.btn-1,
+.event-section .event-item-inner::before,
+.couple-section .social-links a i,
+.couple-section .couple img {
+    border-color: #4dd5ef;
+}
+
+.preloader .loader::before {
+    border-right-color: #4dd5ef;
+}
+
+.setting .s-toggle-btn,
+.btn-1,
+.rsvp-section,
+.people-section .people-item-inner .social-links a:hover i,
+body.dark .people-section .filter-btn.active,
+.people-section .filter-btn.active,
+.event-section,
+.couple-section .social-links a:hover i {
+    background-color: #4dd5ef;
+}
+
+.event-section .event-item-inner img,
+.footer .footer-content .couple-name img {
+    filter: hue-rotate(195deg);
+}
+
+/*ScrollBar--------------------------------------*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#4dd5ef, transparent, #4dd5ef);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 6px;
+}
